@@ -10,14 +10,3 @@ document.onmousemove = (event) => {
     }
   
 };
-
-
-function addEyes() {
-  const face = document.getElementById('face');  
-  const newEye = document.createElement('div');
-  newEye.className = 'eye';
-  face.appendChild(newEye);
-  const retina = document.createElement('div');
-  retina.className = 'ball';
-  newEye.appendChild(retina);
-}
