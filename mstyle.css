@@ -1,0 +1,55 @@
+body {
+  background-color: lightgray;
+}
+
+ul#list-nav {
+
+margin:20px;
+}
+
+ul#list-nav li {
+    
+    display:inline;
+
+}
+
+ul#list-nav li a {
+text-decoration:none;
+padding:15px 0;
+width:100px;
+background-color:white;
+color:black;
+float:left;
+text-align:center;
+  
+
+}
+
+ul#list-nav li a:hover {
+background-color:black;
+color:white;
+
+
+}
+
+
+
+.about {
+  
+  width: 700px;
+  height: 250px;
+  border: 5px solid;
+  border-color: black;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+.atitle{
+  text-align:center;
+}
+
+div#contact {
+  justify-content: center;
+}

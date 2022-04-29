@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <meta charset="utf-8" />
+    <title>Map Animation Bus tracker</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="mstyle.css">
+</head>
+
+<body>
+    <div id='tool_bar'>
+        <ul id='list-nav'>
+            <li><a href='MIT_port_project.html'> HOME </a></li>
+            <li><a href='pacmen.html'> PACMEN </a></li>
+            <li><a href='eyes.html'> EYES </a></li>
+            <li><a href='bus.html'> BUS TRACKER </a></li>
+        </ul>
+    </div>
+
+    <div id="map"></div>
+    <div class="map-overlay top">
+        <button style="font-size: 2em" onclick="move()">
+            Show stops between MIT and Harvard
+        </button>
+    </div>
+    <script src="./mapanimation.js"></script>
+</body>
+
+</html>
